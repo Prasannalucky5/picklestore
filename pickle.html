@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kandakatla Pickles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        header {
+            background-color: white;
+            background-image: url('Untitled design.png');
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: rgb(219, 210, 210);
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background-color: #e8f5e9;
+        }
+        .hero h1 {
+            margin: 0;
+            font-size: 3.5em;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .product {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            width: 250px;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product h2 {
+            font-size: 1.2em;
+        }
+        .order-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgb(237, 235, 235);
+            max-width: 500px;
+            margin: 20px auto;
+        }
+        .order-form h2 {
+            text-align: center;
+        }
+        .order-form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        .order-form input, .order-form select, .order-form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .order-form button {
+            background-color: #515651;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .order-form button:hover {
+            background-color: #454d46;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #434a43;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="color: #fff;">Kandakatla Pickles</h1>
+        <p style="color: #fff; font: 1em sans-serif;">Your one-stop shop for all things pickled!</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+        <a href="#order">Order</a>
+    </nav>
+    <section class="hero" id="home">
+        <h1>Welcome to Kandakatla Pickles</h1>
+        <p>Discover the tangiest, crunchiest pickles around!</p>
+    </section>
+    <section class="products" id="products">
+        <div class="product">
+            <img src="DALL·E 2025-01-08 19.16.25 - A close-up, detailed image of a bowl filled with spicy chicken pickle, featuring chunks of chicken coated in rich, reddish masala with visible chili f.webp" alt="Chicken Pickle">
+            <h2>Chicken Pickle</h2>
+            <p>Classic, Spicy, Softy Chicken Flavoured with Mixed Spices!</p>
+            <p>Price: 1299/- 1kg</p>
+        </div>
+        <div class="product">
+            <img src="mutton pickle.jpg" alt="Mutton Pickle">
+            <h2>Mutton Pickle</h2>
+            <p>Tender and Spicy Mutton Pickle, Freshly made with Spices!</p>
+            <p>Price: 1499/- 1kg</p>
+        </div>
+        <div class="product">
+            <img src="prawns pickle.webp" alt="Prawns Pickles">
+            <h2>Prawns Pickle</h2>
+            <p>Get yourself a Treat with Spicy and softy Prawns Pickle.</p>
+            <p>Price: 1499/- 1kg</p>
+        </div>
+        <div class="product">
+            <img src="mngo pickle.webp" alt="Mango Pickle">
+            <h2>Mango Pickle</h2>
+            <p>A mix of pickled Mango to make your plate Yummy!</p>
+            <p>Price: 799/- 1kg</p>
+        </div>
+        <div class="product">
+            <img src="gooseberry.jpg" alt=" Gooseberry Pickle">
+            <h2>Gooseberry Pickle</h2>
+            <p>A mix of pickled Amla to make your plate Yummy!</p>
+            <p>Price: 799/- 1Kg</p>
+        </div>
+        <div class="product">
+            <img src="beetroot chutnry.jpg" alt="Beetroot Chutney">
+            <h2>Beetroot Chutney</h2>
+            <p>A Healthy freshly made Chutney makes your tongue Yumm!!!</p>
+            <p>Price: 499/- 1Kg</p>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div style="text-align: center; padding: 40px;">
+            <h2>About Us</h2>
+            <p>At Kandakatla Pickles, we are passionate about pickles! From traditional recipes to bold new flavors, we strive to bring joy to pickle enthusiasts everywhere.</p>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div style="text-align: center; padding: 40px;">
+            <h2>Contact Us</h2>
+            <p>Email: prasannakandakatla535@gmail.com</p>
+            <p>Phone: 9959784553</p>
+            <p>Address: Warangal, Telangana</p>
+        </div>
+    </section>
+    <section class="order" id="order">
+        <div class="order-form">
+            <h2>Place Your Order</h2>
+            <form action="#">
+                <label for="product">Select Product</label>
+                <select id="product" name="product">
+                    <option value="dill-pickles">Chicken Pickle</option>
+                    <option value="spicy-pickles">Mutton Pickle</option>
+                    <option value="sweet-pickles">Prawns Pickles</option>
+                    <option value="Mango pickle">Mango Pickle</option>
+                    <option value="pickled-vegetables"> Gooseberry Pickle</option>
+                    <option value="pickled-vegetables"> beetroot Chutney</option>
+
+
+                </select>
+
+                <label for="quantity">Quantity</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="100" required>
+
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="address">Shipping Address</label>
+                <input type="text" id="address" name="address" required>
+
+                <label for="payment">Payment Method</label>
+                <select id="payment" name="payment">
+                    <option value="credit-card">Credit Card</option>
+                    <option value="paypal">PayPal</option>
+                    <option value="bank-transfer">Bank Transfer</option>
+                </select>
+
+                <button type="submit">Submit Order</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Kandakatla Pickle. All rights reserved.</p>
+    </footer>
+</body>
+</html>
